@@ -1,0 +1,14 @@
+artifact_uri: /Users/christian/Documents/Career/StatCan/Projects/BestPractices/MlFlow/examples/sklearn_elasticnet_wine/mlruns/0/8bf57af34fac41e9b2a3f49c3a4485f2/artifacts
+end_time: 1558096301244
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_uuid: 8bf57af34fac41e9b2a3f49c3a4485f2
+source_name: /Users/christian/anaconda3/envs/py36/lib/python3.6/site-packages/ipykernel/__main__.py
+source_type: 4
+source_version: ''
+start_time: 1558096301045
+status: 3
+tags: []
+user_id: christian
