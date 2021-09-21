@@ -12,7 +12,7 @@
 
 source /vault/secrets/minio-standard-tenant-1
 export MLFLOW_S3_ENDPOINT_URL=$MINIO_URL
-export MINIO_URL="https://minio-standard-tenant-1.covid.cloud.statcan.ca"
+#export MINIO_URL="https://minio-standard-tenant-1.covid.cloud.statcan.ca"
 #export MLFLOW_S3_IGNORE_TLS=true # as we use https
 # AWS_ACCESS_KEY_ID
 # AWS_SECRET_ACCESS_KEY
@@ -36,8 +36,7 @@ if [ -z $AWS_SECRET_ACCESS_KEY ]; then
   exit 1
 fi
 
-# killall gunicorn for killing the server, if not shutdown properly
-
+#FYI: killall gunicorn for killing the server, if not shutdown properly
 mlflow server --backend-store-uri sqlite:///mydb.sqlite \
               --default-artifact-root s3://seldonp/mlflow/ \
               --port 5000 \
